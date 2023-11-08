@@ -1,0 +1,158 @@
+@charset "utf-8";
+/*
+   Filename: layout1
+
+   This file contains the layout styles used in the  sample final project base html page.
+
+*/
+/* =============================================
+	Base layout styles used by mobile devices
+	up to 480px and cascaded to larger devices 
+	unless superceded by other styles.
+   =============================================
+*/
+
+html {
+	height: 100%;
+	background-color: rgba(125,117,116,1.00);
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+header {
+	margin: 10px;
+	width: 96%;
+}
+
+header img {
+	width: 100%;
+}
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+
+
+
+footer {
+	width: 96%;
+	clear: left;
+	text-align: center;
+	font-size: 0.45em;
+	margin-top: 30px;
+	border-top: 2px solid rgba(50,50,26,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+*/
+
+@media only screen and (min-width: 481px) {
+body {
+	width: 91.14%;
+	padding-left: 0.93%;
+	padding-right: 0.93%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+nav div {
+	float: left;
+	width: 33.3%
+}
+
+footer {
+	font-size: 1.2em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-size: 2.2em;
+  padding: 1em;
+}
+}
+
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html {
+	background-color: rgba(80,50,48,1.00);
+	margin: 0px auto;
+}
+figure {
+	border-style: solid;
+	border-width: 25px;
+	border-image: url(tb_border.png) 50 repeat;
+	margin: 20px auto 0px;
+		opacity: 0.70;
+	width: 80%;
+}
+
+nav ul {
+	font-family: "fantasy", harrington;
+	font-size: 10px;
+	list-style-type: none;
+	padding-top: 10px;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+body {
+	color: white;
+	font-family: "fantasy", papyrus;
+	font-size: 1.1em;
+	width: 88.2%;
+	max-width: 800px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	background-color: rgba(31, 61, 31, 0.9);
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}
+
+a {
+	color: white;
+}
+
+footer {
+	font-size: 1.2em;
+	font-family: "fantasy", harrington;
+}
+
+}
+
