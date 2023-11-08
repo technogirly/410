@@ -149,6 +149,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	padding-bottom: 10px;
 }
 
 /* Individual image icon */
@@ -192,6 +193,7 @@ body {
 .video-container {
 	max-width: 560px;
 	text-align: center;
+	padding-top: 10px;
 }
 
 /* Responsive video */
