@@ -113,7 +113,8 @@ figure {
 }
 
 nav ul {
-	font-size: 8px;
+	font-family: "fantasy", harrington;
+	font-size: 10px;
 	list-style-type: none;
 	padding-top: 10px;
 	text-align: center;
@@ -149,7 +150,7 @@ a {
 
 footer {
 	font-size: 1.2em;
-	font-family: "fantasy", papyrus;
+	font-family: "fantasy", harrington;
 }
 
 }
