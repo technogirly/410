@@ -130,6 +130,7 @@ img {
 body {
 	color: white;
 	font-family: "fantasy", papyrus;
+	font-size: 1.1em;
 	width: 88.2%;
 	max-width: 800px;
 	padding-left: 0.9%;
