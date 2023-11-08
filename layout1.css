@@ -140,6 +140,7 @@ body {
 	clear: none;
 	float: none;
 	margin-left: auto;
+	text-align: center;
 	background-color: rgba(31, 61, 31, 0.9);
 	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
