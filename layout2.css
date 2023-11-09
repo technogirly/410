@@ -140,7 +140,7 @@ body {
 /* Gallery container */
 .image-gallery {
 	text-align: center;
-	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 /* Rows */
@@ -172,10 +172,6 @@ body {
 	transition: transform 0.2s;
 }
 
-.image-item img:hover {
-	tranform: scale(1.05);
-}
-
 /* Caption styles */
 .image-item figcaption {
 	position: absolute;
@@ -189,11 +185,18 @@ body {
 	text-align: center;
 }
 
+/* Video and information container */
+.video-info-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
 /* Video container */
 .video-container {
 	max-width: 560px;
-	text-align: center;
-	padding-top: 10px;
 }
 
 /* Responsive video */
@@ -202,6 +205,19 @@ body {
 	height: 315px;
 }
 
+/* Additional information container */
+.additional-info {
+	width: calc(100% - 300px);
+	padding-left: 20px;
+}
+
+/* Bottom paragraph */
+.bottom-paragraph {
+	text-align: left;
+	margin-top: 20px;
+	padding: 10px;
+	border: 8px solid rgba(80,50,48,1.00);
+}
 
 a {
 	color: white;
