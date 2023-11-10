@@ -51,7 +51,6 @@ footer {
 	margin-top: 30px;
 	border-top: 2px solid rgba(50,50,26,1.00);
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	padding-bottom: 10px;
 }
 
 
@@ -139,8 +138,8 @@ body {
 	margin: auto;
 	clear: none;
 	float: none;
-	margin-left: auto;
 	text-align: center;
+	margin-left: auto;
 	background-color: rgba(31, 61, 31, 0.9);
 	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
@@ -154,6 +153,7 @@ a {
 footer {
 	font-size: 1.2em;
 	font-family: "fantasy", harrington;
+	padding-bottom: 10px;
 }
 
 }
